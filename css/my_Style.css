@@ -1,0 +1,43 @@
+@charset "utf-8";
+/* CSS Document */
+h1{font-style:oblique;
+font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+color:#0379CD;
+}
+h1,h3{display:inline-block;}
+input{border-color:#000;
+font-size: 24px;
+}
+.display{
+	margin-right:60px;
+}
+.hub{
+	position:absolute;
+	left:49%;}
+.cos{color:#F00;
+position:absolute;
+	left:24%;}
+form{margin-bottom:50px;}
+.score{color:#0379CD;
+position:absolute;
+	left:24%;
+}
+.authority{margin-top:50px;
+color:#0379CD;}
+#btn{background-color:#0088BB;
+color:#FFF;
+cursor: pointer;
+  text-align: center;	
+  text-decoration: none;
+  outline: none;
+  border-radius: 10px;
+  box-shadow: 0 9px #999;
+}
+#btn:hover{background-color:#057CA8;}
+#btn:active {
+  background-color: #057CA8;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+.sh{border-bottom:thin solid  #CFCFCF;}
+dropshadow(three-pass-box, rgba(0,0,0,0.8), 10, 0, 10, 6)
